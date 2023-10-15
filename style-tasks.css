@@ -1,0 +1,106 @@
+body, h1, button, select {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    text-align: center; /* Center-align the text */
+    margin: 10px 0; /* Add some margin for spacing */
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.categories-container {
+    display: flex; /* Display the categories side by side */
+    justify-content: space-between; /* Add space between categories */
+    margin: 50px; /* Add margin to separate from other content */
+}
+
+/* Style the individual dropdown elements */
+.dropdown {
+    text-align: center; /* Center the button and select element */
+    margin-right: 10px; /* Add space between categories */
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.dropbtn:hover {
+    background-color: #45a049;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    /* transform: translateX(-50%);
+    top: 100%;
+    left: 50%; */
+    max-width: 200px;
+}
+
+.dropdown-content option {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:nth-child(3) .dropdown-content {
+    left: auto;
+    right: 0; /* Open to the right when near the right edge */
+    transform: translateX(0%); /* Open to the left when near the right edge */
+    max-width: calc(100% - 20px);
+}
+
+h2 {
+    text-align: center;
+    margin: 10px;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    transition: background-color 0.3s;
+    display: block;
+    margin: 10px auto;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
