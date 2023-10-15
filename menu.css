@@ -1,0 +1,64 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-attachment:  fixed;
+    background-position: center, center;
+    background-repeat: no-repeat;
+    background-image: url('menu.png');
+    background-size: contain;
+  }
+
+.container {
+    position: absolute;
+}
+
+.button1 {
+    top: 330px;
+    left: 470px;
+}
+
+.button2 {
+    top: 330px;
+    left: 750px;
+}
+
+.button3 {
+    top: 570px;
+    left: 470px;
+}
+
+.button4 {
+    top: 570px;
+    left: 750px;
+}
+
+.button {
+    display: inline-block;
+}
+
+.button1 .button img {
+    width: 150px; 
+    height: auto;
+}
+
+.button2 .button img {
+    width: 150px; 
+    height: auto;
+}
+
+.button3 .button img {
+    width: 250px; 
+    height: auto;
+}
+
+.button4 .button img {
+    width: 250px; 
+    height: auto;
+}
+
+.button img:hover {
+    opacity: 0.8;
+}
+
+  
