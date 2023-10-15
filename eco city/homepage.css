@@ -1,0 +1,57 @@
+html {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('./assets/images/backgrounds/pebbles.png');
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0 !important;
+}
+
+.container {
+  position: absolute;
+}
+
+.top-left {
+  top: 0px;
+  left: 50px;
+}
+
+.bottom-right {
+  bottom: -10px;
+  right: 0px;
+}
+
+.button {
+  display: inline-block;
+}
+
+.top-left .button img {
+  width: 200px;
+  /* Adjust the width for the top-left button */
+  height: auto;
+}
+
+.bottom-right .button img {
+  width: 600px;
+  /* Adjust the width for the bottom-right button */
+  height: auto;
+}
+
+#homepage {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0 !important;
+}

@@ -1,0 +1,175 @@
+@font-face {
+  font-family: fuzzy-bubbles;
+  src: url(./assets/fonts/fuzzybubbles-bold-webfont.woff2) format(woff2),
+    url(./assets/fonts/fuzzybubbles-bold-webfont.woff) format(woff);
+}
+
+html {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-attachment: fixed;
+  background-position: center, center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("./assets/images/backgrounds/pebbles.png");
+
+}
+
+.display {
+  margin: 0;
+  position: relative;
+  text-align: center;
+  display: inline-block;
+}
+
+.text-container {
+  position: absolute;
+  top: 10%;
+  width: 50%;
+  top: 5%;
+  left: 25%;
+  height: auto;
+}
+
+.text-container2 {
+  position: absolute;
+  top: 0;
+  width: 50%;
+  left: 25%;
+  margin-top: 10%;
+  height: auto;
+}
+
+.button {
+  display: inline-block;
+}
+
+.button img {
+  width: 200px;
+  height: auto;
+}
+
+.button img:hover {
+  opacity: 0.8;
+}
+
+.nextButton {
+  top: 45%;
+  right: 7%;
+  position: absolute;
+}
+
+.backButton {
+  top: 45%;
+  left: 7%;
+  position: absolute;
+  z-index: 2;
+  appearance: none;
+  border: none;
+  background: inherit;
+  cursor: pointer;
+}
+
+.backButton img:hover {
+  opacity: 0.8;
+}
+
+.backButton2 {
+  top: 40%;
+  left: 20%;
+  position: absolute;
+  z-index: 2;
+  appearance: none;
+  border: none;
+  background: inherit;
+  cursor: pointer;
+}
+
+.backButton2 img:hover {
+  opacity: 0.8;
+}
+
+body {
+  font-family: fuzzy-bubbles;
+  margin: 0;
+  text-align: center;
+}
+
+h1, h4 {
+  font-size: 40px;
+  color: #3C674A;
+}
+
+h4 {
+  padding: 0;
+  margin: 0;
+}
+
+h3 {
+  font-size: 30px;
+  color: #568259;
+}
+
+p {
+  font-size: 20px;
+}
+
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table,
+th,
+td {
+  margin: 10px;
+  font-size: 30px;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  overflow: auto;
+  height: 200px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
